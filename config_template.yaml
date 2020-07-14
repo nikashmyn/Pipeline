@@ -1,0 +1,8 @@
+reference: /pellmanlab/logan/data/references/mm10/GRCm38.p6.genome.fa
+intervals: /pellmanlab/logan/data/references/mm10/GRCm38.10kb_bins.bed
+gatk_cmd: 'gatk --java-options "-Xmx14G -XX:ConcGCThreads=3"'
+max_records: 2000000
+tmp_dir: 'tmp'
+samples: samples.csv
+snp_sites: '/pellmanlab/logan/data/references/mm10/129S1_SvImJ.alts.vcf.gz'
+normal: /pellmanlab/logan/data/references/mm10/SvJae_x_Bl6_normal.bam
